@@ -5,7 +5,7 @@ public class Boat extends Vehicle{
     }
 
     public String doStuff() {
-        return "Je suis " + brand + " et je fais glou glou !,ma vitesse est de : " + kilometers + " Noeuds";
+        return "Je suis " + getBrand() + " et je fais glou glou !,ma vitesse est de : " + getKilometers() + " Noeuds";
         
     }
 }

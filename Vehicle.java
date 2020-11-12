@@ -1,7 +1,7 @@
 public abstract class Vehicle {
 
-    protected String brand;
-    protected int kilometers;
+    private String brand;
+    private int kilometers;
 
     public Vehicle(String brand,int kilometers) {
 
